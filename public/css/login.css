@@ -1,0 +1,44 @@
+body
+
+{
+
+	background-color: #115FAA;
+
+}
+
+
+
+.login .btn a
+
+{
+
+	background-color: #115FAA;
+
+}
+
+
+
+.login .container
+
+{
+
+	background-color: #FFF;
+
+	margin-top: 100px;
+
+	width: 40%;
+
+	padding: 20px;
+
+}
+
+
+
+.login .container img
+
+{
+
+display:block;
+margin: 10px auto;
+}
+

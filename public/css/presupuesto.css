@@ -1,0 +1,79 @@
+.atras
+{
+	border: 1px solid #A3A3A3;
+	color: #A3A3A3;
+	background-color: #FFF;
+}
+
+.atras:hover
+{
+	background-color: #FFF;
+	color: #A3A3A3;
+}
+
+.boton
+{
+	height: 40px!important;
+	width: 150px!important;
+}
+
+.atras:focus
+{
+	background-color:#FFF;
+	color: #115FAA;
+}
+
+main.presupuesto .file-field
+{
+	line-height: 2.7rem!important;
+}
+
+main.presupuesto .enviar
+{
+	margin-left: 15px;
+}
+
+main.presupuesto .gris
+{
+	filter: grayscale(100%);
+}
+
+main.presupuesto .linea-inferior
+{
+	width: 50px;
+	height: 1px;
+	display: block;
+	margin: 0 auto;
+	background-color: #DB7844;
+}
+
+main.presupuesto .vertical
+{
+	width: 1px;
+    height: 30px;
+    background-color: #BBBBBB;
+    margin: auto;
+}
+
+main.presupuesto .circulo
+{
+	height: 15px;
+    width: 15px;
+    border: 1px solid #BBBBBB;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+main.presupuesto
+{
+	height: 100vh;
+}
+
+@media only screen and (max-width: 600px) 
+{
+	main.presupuesto
+	{
+		height: 100vh;
+	}	
+}

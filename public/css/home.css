@@ -1,0 +1,171 @@
+main.home .card .card-content
+{
+    background-color: rgba(236,236,236,0.8);
+}
+
+main.home .card .card-reveal
+{
+    height: 55%!important;
+    background-color: rgba(236,236,236,0.8);
+    overflow: hidden;
+}
+
+.efecto
+    {
+    position: absolute;
+    opacity: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 6;
+    }    
+
+.efecto:hover
+    {
+    opacity: 1;
+    transition: 1s;
+    }
+
+.central
+    {
+    display: inline-block;
+    position: absolute;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    line-height:0;
+    bottom: 5%;
+    left: 3%;
+    z-index: 4;
+    }
+
+
+.titulo-hover
+{
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+    font-size: 20px;
+    z-index: 4;
+}
+
+.image-hover 
+{
+    position: absolute;
+    bottom: 0;
+    mix-blend-mode: multiply;
+}
+
+
+main.home .btn
+{
+    height: 28px;
+    line-height: initial;
+}
+
+/* Sliders */
+main.home .slider
+{
+    height: 400px!important;
+
+}
+main.home .slider img
+{
+    max-height: 400px!important;
+}
+
+main.home .slider .indicators
+
+{
+z-index: 9;
+bottom: 12px;
+}
+
+
+main.home .slider .indicators .indicator-item.active
+
+{background-color: #FFF;opacity: 0.8;width: 10px;height: 10px;}
+
+
+main.home .caption
+
+{left: 10%!important;top: 20%!important;width: 45%!important;}
+
+
+main.home .slider .slides li .caption {
+    position: absolute;
+    height: 50%;
+    width: 45%!important;
+    z-index: 5;
+    top: 30%!important;
+    left: 7%!important;
+    line-height: 1.2;
+    /* padding: 0 2rem; */
+    }
+
+@media only screen and (max-width: 810px) 
+
+{
+    main.home .slider .slides li .caption
+    {
+        width: 90%!important;
+        top: 46%!important;
+    }
+
+    main.home .parallax > div
+    {
+        z-index: 10; 
+        display: block; 
+        top:15%; 
+        left: 3%; 
+        line-height: 1.2;
+    }
+
+    main.home .fs28
+
+    {
+        font-size: 19px!important;
+    }
+
+    main.home .fs68
+
+    {
+        font-size: 42px!important;
+    }  
+}
+
+@media (min-width: 811px) and (max-width: 1024px) and (orientation: landscape) 
+
+{
+
+    .slider .slides li .caption 
+
+    {
+
+    width: 80%!important;
+    left: 20%;
+
+    }
+    
+    main.home div .fs28
+
+    {
+        font-size: 26px!important;
+    }
+
+    main.home .fs68
+
+    {
+        font-size: 55px!important;
+    }   
+
+     main.home .parallax > div
+    {
+        z-index: 10; 
+        display: block; 
+        top:30%; 
+        left: 15%; 
+        line-height: 1.2;
+    }
+
+}
